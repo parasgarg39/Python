@@ -1,0 +1,18 @@
+# Sample form Screenshot will be added for reference
+import pyautogui
+pyautogui.click(582, 708)
+pyautogui.typewrite("Paras Garg", interval=0.2)
+pyautogui.click(592, 892)
+pyautogui.vscroll(-400)
+pyautogui.click(584, 710)
+pyautogui.typewrite("1", interval=0.2)
+pyautogui.vscroll(-200)
+pyautogui.leftClick(592, 703)
+pyautogui.click(592, 703)
+pyautogui.click(592, 837)
+pyautogui.vscroll(-500)
+pyautogui.click(585, 590)
+pyautogui.typewrite("No", interval=0.2)
+pyautogui.click(584, 778)
+pyautogui.typewrite("loremipsum@mail.com", interval=0.2)
+pyautogui.click(600, 866)
